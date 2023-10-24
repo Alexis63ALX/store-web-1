@@ -1,68 +1,97 @@
 <template>
+  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+    <span></span> <span></span> <span></span> <span></span> <span></span>
 
-      <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+    <div class="signin">
 
-   <div class="signin"> 
+      <div class="content">
 
-    <div class="content"> 
+        <h2>Sign In</h2>
 
-     <h2>Sign In</h2> 
+        <div class="form">
 
-     <div class="form"> 
+          <div class="inputBox">
 
-      <div class="inputBox"> 
+            <input type="text" v-model="email" required> <i>Username</i>
 
-       <input type="text" required> <i>Username</i> 
+          </div>
 
-      </div> 
+          <div class="inputBox">
 
-      <div class="inputBox"> 
+            <input type="password" v-model="password" required> <i>Password</i>
 
-       <input type="password" required> <i>Password</i> 
+          </div>
 
-      </div> 
+          <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a>
 
-      <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a> 
+          </div>
 
-      </div> 
+          <div class="inputBox">
 
-      <div class="inputBox"> 
+            <input @click="inicioSesion" type="button" value="Login">
 
-       <input type="submit" value="Login"> 
+          </div>
 
-      </div> 
+        </div>
 
-     </div> 
+      </div>
 
-    </div> 
+    </div>
 
-   </div> 
-
-  </section> <!-- partial --> 
-
+  </section> <!-- partial -->
 </template>
 
 
 <style>
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-*
-{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
-body 
-{
+
+.signin {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 15vh;
   background: #000;
 }
-section 
-{
+
+section {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -73,28 +102,27 @@ section
   flex-wrap: wrap;
   overflow: hidden;
 }
-section::before 
-{
+
+section::before {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#000,#0f0,#000);
+  background: linear-gradient(#000, #0f0, #000);
   animation: animate 5s linear infinite;
 }
-@keyframes animate 
-{
-  0%
-  {
+
+@keyframes animate {
+  0% {
     transform: translateY(-100%);
   }
-  100%
-  {
+
+  100% {
     transform: translateY(100%);
   }
 }
-section span 
-{
+
+section span {
   position: relative;
   display: block;
   width: calc(6.25vw - 2px);
@@ -103,27 +131,26 @@ section span
   z-index: 2;
   transition: 1.5s;
 }
-section span:hover 
-{
+
+section span:hover {
   background: #0f0;
   transition: 0s;
 }
 
-section .signin
-{
+section .signin {
   position: absolute;
   width: 400px;
-  background: #222;  
+  background: #222;
   z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px;
   border-radius: 4px;
-  box-shadow: 0 15px 35px rgba(0,0,0,9);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
 }
-section .signin .content 
-{
+
+section .signin .content {
   position: relative;
   width: 100%;
   display: flex;
@@ -132,26 +159,26 @@ section .signin .content
   flex-direction: column;
   gap: 40px;
 }
-section .signin .content h2 
-{
+
+section .signin .content h2 {
   font-size: 2em;
   color: #0f0;
   text-transform: uppercase;
 }
-section .signin .content .form 
-{
+
+section .signin .content .form {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-section .signin .content .form .inputBox
-{
+
+section .signin .content .form .inputBox {
   position: relative;
   width: 100%;
 }
-section .signin .content .form .inputBox input 
-{
+
+section .signin .content .form .inputBox input {
   position: relative;
   width: 100%;
   background: #333;
@@ -163,8 +190,8 @@ section .signin .content .form .inputBox input
   font-weight: 500;
   font-size: 1em;
 }
-section .signin .content .form .inputBox i 
-{
+
+section .signin .content .form .inputBox i {
   position: absolute;
   left: 0;
   padding: 15px 10px;
@@ -173,32 +200,32 @@ section .signin .content .form .inputBox i
   transition: 0.5s;
   pointer-events: none;
 }
-.signin .content .form .inputBox input:focus ~ i,
-.signin .content .form .inputBox input:valid ~ i
-{
+
+.signin .content .form .inputBox input:focus~i,
+.signin .content .form .inputBox input:valid~i {
   transform: translateY(-7.5px);
   font-size: 0.8em;
   color: #fff;
 }
-.signin .content .form .links 
-{
+
+.signin .content .form .links {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.signin .content .form .links a 
-{
+
+.signin .content .form .links a {
   color: #fff;
   text-decoration: none;
 }
-.signin .content .form .links a:nth-child(2)
-{
+
+.signin .content .form .links a:nth-child(2) {
   color: #0f0;
   font-weight: 600;
 }
-.signin .content .form .inputBox input[type="submit"]
-{
+
+.signin .content .form .inputBox input[type="button"] {
   padding: 10px;
   background: #0f0;
   color: #000;
@@ -207,22 +234,20 @@ section .signin .content .form .inputBox i
   letter-spacing: 0.05em;
   cursor: pointer;
 }
-input[type="submit"]:active
-{
+
+input[type="button"]:active {
   opacity: 0.6;
 }
-@media (max-width: 900px)
-{
-  section span 
-  {
+
+@media (max-width: 900px) {
+  section span {
     width: calc(10vw - 2px);
     height: calc(10vw - 2px);
   }
 }
-@media (max-width: 600px)
-{
-  section span 
-  {
+
+@media (max-width: 600px) {
+  section span {
     width: calc(20vw - 2px);
     height: calc(20vw - 2px);
   }
@@ -230,10 +255,50 @@ input[type="submit"]:active
 </style>
 
 <script>
-
+import axios from 'axios'
 export default {
-    name: "LoginForm",
-    
+
+  name: "LoginForm",
+  data() {
+    return {
+      email: "",
+      password: ""
+    }
+  },
+  methods: {
+    inicioSesion: function () {
+      // console.log("Estoy haciendo click...")
+      // console.log("Email: " + this.email)
+      // console.log("Password: " + this.password)
+      var url = "http://localhost:5081/api/Users/SignIn"
+      var data = {
+        email: this.email,
+        password: this.password
+      }
+
+      axios.post(url, data)
+        .then(response => {
+
+          this.$q.notify({
+            message: 'Credenciales válidas',
+            color: 'green',
+            avatar: 'https://img.freepik.com/vector-gratis/dibujos-animados-perro-beagle-sobre-fondo-blanco_1308-68249.jpg'
+          })
+
+
+
+          this.$router.push("/dashboard")
+        }).catch(error => {
+          this.$q.notify({
+            message: 'Credenciales inválidas',
+            color: 'red',
+            avatar: 'https://w7.pngwing.com/pngs/557/438/png-transparent-error-message-icon-warning-icons-trademark-computer-window.png',
+            position: 'top'
+          })
+        })
+
+    }
+  }
 
 
 
