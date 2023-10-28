@@ -1,22 +1,29 @@
-
 const routes = [
   {
-    path: '/dashboard',
-    component: () => import('layouts/MainLayout.vue'),
+    path: "/dashboard",
+    component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
-    ]
+      { path: "", component: () => import("pages/IndexPage.vue") },
+      {
+        path: "/camera",
+        component: () => import("components/utils/CameraForm.vue"),
+      },
+    ],
   },
   {
-    path:"/",
-    component: () => import("components/auth/LoginForm.vue")
+    path: "/",
+    component: () => import("components/auth/LoginForm.vue"),
+  },
+  {
+    path: "/camera",
+    component: () => import("components/utils/CameraForm.vue"),
   },
   // Always leave this as last one,
   // but you can also remove it
   {
-    path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue')
-  }
-]
+    path: "/:catchAll(.*)*",
+    component: () => import("pages/ErrorNotFound.vue"),
+  },
+];
 
-export default routes
+export default routes;
