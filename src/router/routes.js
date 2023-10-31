@@ -18,6 +18,10 @@ const routes = [
     path: "/camera",
     component: () => import("components/utils/CameraForm.vue"),
   },
+  {
+    path: "/register",
+    component: () => import("components/auth/RegisterForm.vue"),
+  },
   // Always leave this as last one,
   // but you can also remove it
   {

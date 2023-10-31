@@ -53,7 +53,7 @@
 
           </div>
 
-          <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a>
+          <div class="links"> <a href="#">Forgot Password</a> <a href="#/register">Signup</a>
 
           </div>
 
@@ -285,7 +285,7 @@ export default {
             avatar: 'https://img.freepik.com/vector-gratis/dibujos-animados-perro-beagle-sobre-fondo-blanco_1308-68249.jpg'
           })
 
-
+          localStorage.setItem("userData", JSON.stringify(response.data))
 
           this.$router.push("/dashboard")
         }).catch(error => {
