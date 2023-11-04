@@ -5,8 +5,12 @@ const routes = [
     children: [
       { path: "", component: () => import("pages/IndexPage.vue") },
       {
-        path: "/camera",
+        path: "camera",
         component: () => import("components/utils/CameraForm.vue"),
+      },
+      {
+        path: "product",
+        component: () => import("pages/ProductPage.vue"),
       },
     ],
   },
