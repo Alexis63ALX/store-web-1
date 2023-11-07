@@ -278,7 +278,7 @@ export default {
 
       axios.post(url, data)
         .then(response => {
-
+          console.log(response.data)
           this.$q.notify({
             message: 'Credenciales válidas',
             color: 'green',

@@ -35,8 +35,15 @@ export default {
     },
     methods: {
         getProducts() {
+            var token = JSON.parse(localStorage.getItem("userData")).token
             var url = 'http://localhost:5081/api/Product'
-            axios.get(url).then(response => {
+            var cabeceraToken = {
+                headers: {
+                    Authorization: 'Bearer ' + token
+                }
+            }
+
+            axios.get(url, cabeceraToken).then(response => {
                 this.productos = response.data
             }).catch(error => {
                 console.log("Error: " + error)
