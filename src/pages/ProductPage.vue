@@ -1,6 +1,5 @@
 <template>
-    <h1>Productos</h1>
-    <div class="product-page">
+    - <div class="product-page">
         <div class="product-filter q-ml-md q-mr-xl">
             <ProductFilter />
         </div>
