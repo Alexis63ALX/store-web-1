@@ -287,7 +287,7 @@ export default {
 
           localStorage.setItem("userData", JSON.stringify(response.data))
 
-          this.$router.push("/dashboard")
+          this.$router.push("/dashboard/product")
         }).catch(error => {
           this.$q.notify({
             message: 'Credenciales inválidas',
