@@ -4,7 +4,7 @@
             <ProductFilter />
         </div>
         <div class="product-list q-mr-md">
-            <ProductList />
+            <ProductList :categoryIdSelected="0" />
         </div>
     </div>
 </template>

@@ -2,7 +2,8 @@
     <h6>Filtros</h6>
     <div class="filtro-categoria">
         <label>Categoría</label>
-        <q-select v-model="selectedCategory" filled :options="categories" option-value="value" label="filled" />
+        <q-select v-model="selectedCategory" filled :options="categories" option-label="description" option-value="id"
+            label="filled" />
     </div>
     <div class="filtro-precio">
         <label>Rango de precios</label>
@@ -19,16 +20,38 @@
 
 <script>
 
+import axios from 'axios';
 export default {
     name: "ProductFilter",
     data() {
         return {
-            categories: ["Celulares", "Impresoras", "Laptop"],
+            //categories: ["Celulares", "Impresoras", "Laptop"],
+            categories: [],
             selectedCategory: "Celulares",
             minimo: 1,
-            maximo: 10000
+            maximo: 10000,
+            categoryName: []
+        }
+    },
+    mounted() {
+        this.getCategories();
+    },
+    methods: {
+        getCategories() {
+            var url = "http://localhost:5081/api/Category";
+            axios.get(url)
+                .then(response => {
+                    console.log(response.data)
+                    this.categories = response.data
+                    //this.categoryName = response.data.map(category => category.description)
+                }).catch(error => {
+                    console.log(error)
+                })
+
         }
     }
+
+
 }
 
 </script>

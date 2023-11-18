@@ -25,18 +25,26 @@ export default {
     components: {
         ProductItem
     },
+    props: {
+        categoryIdSelected: {
+            type: Number,
+            required: true
+        }
+    },
     data() {
         return {
-            productos: []
+            productos: [],
+            categoryId: 0
         }
     },
     mounted() {
-        this.getProducts()
+        this.getProducts(0)
     },
     methods: {
-        getProducts() {
+        getProducts(idCategoria) {
+            this.categoryId = idCategoria ?? 0;
             var token = JSON.parse(localStorage.getItem("userData")).token
-            var url = 'http://localhost:5081/api/Product'
+            var url = 'http://localhost:5081/api/Product/GetAllByCategory/' + this.categoryId
             var cabeceraToken = {
                 headers: {
                     Authorization: 'Bearer ' + token
