@@ -20,7 +20,7 @@ export const userCartStore = defineStore("cart",{
             this.cartItems = cartAllItems
         },
         removeToCart(productId){
-            const cartAllItems = this.cartItems();
+            const cartAllItems = this.cartItems;
 
             const existingProductIndex = cartAllItems.findIndex(
                 (item) => item.id == productId
@@ -33,15 +33,15 @@ export const userCartStore = defineStore("cart",{
             this.cartItems = cartAllItems
         },
         updateQuantity(productId, newQuantity){
-            const cartAllItems = this.cartItems();
+            const cartAllItems = this.cartItems;
 
             const existingProductIndex = cartAllItems.findIndex(
                 (item) => item.id == productId
             )
             if(existingProductIndex>=0)
-                cartAllItems[existingProductIndex].quantity++;
+                cartAllItems[existingProductIndex].quantity = newQuantity;
 
-            localStorage.setItem("cart"), JSON.stringify(cartAllItems)
+            localStorage.setItem("cart", JSON.stringify(cartAllItems))
             this.cartItems = cartAllItems
         },
         clearCart(){

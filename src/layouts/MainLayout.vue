@@ -8,13 +8,13 @@
           Store App
         </q-toolbar-title>
 
-        <q-btn push color="white" text-color="primary" icon="add_shopping_cart">
+        <q-btn push color="white" @click="redirectToCart()" text-color="primary" icon="add_shopping_cart">
           <q-badge color="orange" floating>{{ totalItems }}</q-badge>
         </q-btn>
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <q-drawer v-model="leftDrawerOpen" bordered>
       <q-list>
         <q-item-label header>
           Essential Links
@@ -35,6 +35,7 @@ import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 import { userCartStore } from 'src/stores/cart-store'
 import { computed } from 'vue'
+import { useRouter } from 'vue-router'
 
 const linksList = [
   {
@@ -92,8 +93,13 @@ export default defineComponent({
     const leftDrawerOpen = ref(false)
     const cartStore = userCartStore();
     const totalItems = computed(() => cartStore.totalCountItems)
+    const router = useRouter()
+    const redirectToCart = () => {
+      router.push("/dashboard/cart")
+    }
 
     return {
+      redirectToCart,
       totalItems,
       essentialLinks: linksList,
       leftDrawerOpen,
