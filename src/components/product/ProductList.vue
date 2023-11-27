@@ -2,8 +2,8 @@
     <h5>Listado de Productos</h5>
     <div class="product-list">
         <div class="product-grid">
-            <div class="product-item" v-for="producto in productos" :key="producto.id">
-                <ProductItem :product="producto" />
+            <div class="product-item" v-for="movie in movies" :key="movie.id">
+                <ProductItem :movie="movie" />
             </div>
         </div>
     </div>
@@ -34,6 +34,7 @@ export default {
     data() {
         return {
             productos: [],
+            movies: [],
             categoryId: 0
         }
     },
@@ -42,9 +43,9 @@ export default {
     },
     methods: {
         getProducts(idCategoria) {
-            this.categoryId = idCategoria ?? 0;
-            var token = JSON.parse(localStorage.getItem("userData")).token
-            var url = 'http://localhost:5081/api/Product/GetAllByCategory/' + this.categoryId
+
+            var token = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNDU5ZjI5ZjFjZWM0ZDlkZjlhMGJiNjIxODQwY2ZlNSIsInN1YiI6IjY1NWZhYjM1YTZjMTA0MDEzODI4OTQ4NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9gD2y5gJ8Yc7qp2ipzedkjBiZDwnNwkxQMZkMmW_Ddc'
+            var url = 'https://api.themoviedb.org/3/discover/movie?api_key=b459f29f1cec4d9df9a0bb621840cfe5'
             var cabeceraToken = {
                 headers: {
                     Authorization: 'Bearer ' + token
@@ -52,7 +53,9 @@ export default {
             }
 
             axios.get(url, cabeceraToken).then(response => {
-                this.productos = response.data
+                //this.productos = response.data
+                this.movies = response.data.results
+                console.log(this.movies)
             }).catch(error => {
                 console.log("Error: " + error)
             })

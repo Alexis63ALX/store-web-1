@@ -275,8 +275,8 @@ export default {
         email: this.email,
         password: this.password
       }
-
-      axios.post(url, data)
+      this.$router.push("/dashboard/product")
+      /*axios.post(url, data)
         .then(response => {
           console.log(response.data)
           this.$q.notify({
@@ -287,7 +287,7 @@ export default {
 
           localStorage.setItem("userData", JSON.stringify(response.data))
 
-          this.$router.push("/dashboard/product")
+          
         }).catch(error => {
           this.$q.notify({
             message: 'Credenciales inválidas',
@@ -295,7 +295,7 @@ export default {
             avatar: 'https://w7.pngwing.com/pngs/557/438/png-transparent-error-message-icon-warning-icons-trademark-computer-window.png',
             position: 'top'
           })
-        })
+        })*/
 
     }
   }
